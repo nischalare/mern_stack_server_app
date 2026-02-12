@@ -18,8 +18,8 @@ It is designed to work seamlessly with a React frontend and supports authenticat
 
 ---
 
-## 📁 Project Structure
-
+## 📁 Project Structure````
+```text
 my-node-app/
 │
 ├── controllers/
@@ -42,6 +42,7 @@ my-node-app/
 ├── .env                      # Environment variables
 ├── package.json
 └── README.md
+```
 
 ---
 
