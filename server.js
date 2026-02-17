@@ -41,11 +41,12 @@ const app = express();
 // In production, restrict "origin" to specific domains
 app.use(
   cors({
-    origin: "https://mern-stack-client-app.vercel.app", // Allow all origins (development only)
+    origin: true, // Allow all origins (safe if no cookies used)
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
+
 
 // Enable JSON body parsing
 // Required to read data sent in POST / PUT requests
